@@ -1,103 +1,113 @@
-### ƒeƒXƒgŠÂ‹«ì¬
+### ãƒ†ã‚¹ãƒˆç’°å¢ƒä½œæˆ
 
-###### Mac‚Ìê‡
-- git ‚ğƒCƒ“ƒXƒg[ƒ‹‚·‚é
+###### Macã®å ´åˆ
+- git ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã™ã‚‹
   - $ brew update
   - $ brew install git
-- openJDK‚ğƒCƒ“ƒXƒg[ƒ‹‚·‚é
+- openJDKã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã™ã‚‹
   - https://qiita.com/spaciba_h_t/items/c96e96be99596b0a9fe4
-- leiningen ‚ğƒCƒ“ƒXƒg[ƒ‹‚·‚é  
+- leiningen ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã™ã‚‹  
   - brew install leiningen  
 
-###### Windows‚Ìê‡
-- git ‚ğƒCƒ“ƒXƒg[ƒ‹‚·‚é
+###### Windowsã®å ´åˆ
+- git ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã™ã‚‹
   - https://qiita.com/toshi-click/items/dcf3dd48fdc74c91b409
-- openJDK‚ğƒCƒ“ƒXƒg[ƒ‹‚·‚é
+- openJDKã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã™ã‚‹
   - https://qiita.com/ryo-sato/items/87d05021fcc0519e8828
-- leiningen‚ğƒCƒ“ƒXƒg[ƒ‹‚·‚é
-  - https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein.bat ‚ğƒ[ƒJƒ‹‚Éƒ_ƒEƒ“ƒ[ƒh‚·‚é
+- leiningenã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã™ã‚‹
+  - https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein.bat ã‚’ãƒ­ãƒ¼ã‚«ãƒ«ã«ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã™ã‚‹
   - lein.bat self-install  
- ¦¸”s‚Ìê‡Ahttps://github.com/technomancy/leiningen/releases/download/2.9.2/leiningen-2.9.2-standalone.zip ‚ğè“®ƒ_ƒEƒ“ƒ[ƒh‚µ‚ÄAlein.bat ‚Æ“¯‚¶ƒtƒHƒ‹ƒ_‚É‰ğ“€‚µ‚Ä‚­‚¾‚³‚¢Blein.batŠİƒtƒHƒ‹ƒ_‚ÌƒpƒX‚ğ’Ê‚·
-  - Ú×‚Í http://antibayesian.hateblo.jp/entry/20120122/1327236946
+ â€»å¤±æ•—ã®å ´åˆã€https://github.com/technomancy/leiningen/releases/download/2.9.2/leiningen-2.9.2-standalone.zip ã‚’æ‰‹å‹•ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ã¦ã€lein.bat ã¨åŒã˜ãƒ•ã‚©ãƒ«ãƒ€ã«è§£å‡ã—ã¦ãã ã•ã„ã€‚lein.batæ‰€åœ¨ãƒ•ã‚©ãƒ«ãƒ€ã®ãƒ‘ã‚¹ã‚’é€šã™
+  - è©³ç´°ã¯ http://antibayesian.hateblo.jp/entry/20120122/1327236946
 
-### ‹N“®
+### èµ·å‹•
 - git clone https://github.com/zheng-jiwei/ec-site-bigcommerce.git
-- clone‚³‚ê‚½ƒtƒHƒ‹ƒ_[‚ÉˆÚ“®‚·‚é
-- `lein ring server-headless` ‚ÅƒT[ƒo[‚ğ‹N“®‚µ‚Ä‚­‚¾‚³‚¢B  
-- ƒuƒ‰ƒU[‚Å `http://localhost:8080/index.html` ‚ğƒAƒNƒZƒX‚µ‚½‚çAƒTƒCƒg‚Ì•\¦‚ª‚Å‚«‚Ü‚·B
+- cloneã•ã‚ŒãŸãƒ•ã‚©ãƒ«ãƒ€ãƒ¼ã«ç§»å‹•ã™ã‚‹
+- `lein ring server-headless` ã§ã‚µãƒ¼ãƒãƒ¼ã‚’èµ·å‹•ã—ã¦ãã ã•ã„ã€‚  
+- ãƒ–ãƒ©ã‚¶ãƒ¼ã§ `http://localhost:8080/index.html` ã‚’ã‚¢ã‚¯ã‚»ã‚¹ã—ãŸã‚‰ã€ã‚µã‚¤ãƒˆã®è¡¨ç¤ºãŒã§ãã¾ã™ã€‚
 
 ***
 
-### bigcommerce store‚Ìİ’è
-- ƒXƒgƒAƒAƒJƒEƒ“ƒg‚Ìì¬
+### bigcommerce storeã®è¨­å®š
+- ã‚¹ãƒˆã‚¢ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã®ä½œæˆ
   - https://www.bigcommerce.com/essentials/free-trial
-- APIƒAƒJƒEƒ“ƒgì¬
-@- bigcommerce store‚ÉƒƒOƒCƒ“
-  - ¶‘¤‚Ìƒƒjƒ…[ > Advanced Settings > API Accounts ‚Å‰æ–Ê‚ğŠJ‚¢‚ÄAƒ{ƒ^ƒ“ucreate API accountv >  ucreate v2/v3 API tokenv‚ğƒNƒŠƒbƒN‚·‚é
-  - uOAuth Scopesv‚É‚ ‚é€–Ú‚Í‚·‚×‚ÄÅ‘åŒ ŒÀ‚ğ•t—^‚µ‚Äimodify‚ª‚ ‚ê‚ÎmodifyA‚È‚¯‚ê‚Î readonlyAloginAmanagementAcreatejAusavev‚ğƒNƒŠƒbƒN‚µ‚Ü‚·B
-@- o‚Ä‚«‚½î•ñ‚Í config.json ‚É‚ ‚éŠÖ˜A‚·‚ékeyword‚Ì’l‚Æ“ü‚ê‘Ö‚¦‚·‚éishop_cache‚ÍAPI PATH‚ÌŒã‚ë‚©‚ç2”Ô–ÚƒZƒOƒƒ“ƒg‚Ì’l‚Å‚·j
-- ”z‘—’nˆæ‚Ìİ’è
-  - ŠÇ—‰æ–Ê¶‘¤‚Ìƒƒjƒ…[ > Store Setup > Shipping ‚ğŠJ‚«‚Ü‚·B
-  - Add shipping zone > add a country zone ‚ğƒNƒŠƒbƒN‚µ‚ÄA”CˆÓ‚Ì‘‚ğ‘I‘ğ‚µ‚Ä submit ‚µ‚Ü‚·B
-  - default shipping rules ’†‚É‘I‘ğ‚³‚ê‚½‘‚ªo‚Ä‚«‚ÄAconfigure‚ğƒNƒŠƒbƒN‚µ‚Ü‚·
-  - ship by ‚ğON‚É‚µ‚ÄAdefault‚Í by weight ‚ª•\¦‚³‚ê‚ÄADefault shipping cost ‚É”CˆÓ‚Ì”š‚ğ“ü‚ê‚ÄOK‚Å‚·BRangesƒGƒŠƒA‚Íd‚³‹æŠÔ‚Ì‘——¿‚ğ“K“–‚É’Ç‰Á‚µ‚ÄAsubmit‚Å•Û‘¶‚µ‚Ü‚·B
-  - ”z‘—’nˆæ‚Í•¡”’Ç‰Á‚Å‚«‚Ü‚·B’Ç‰Á‚³‚ê‚½î•ñ‚Í’•¶‚Ì”z‘—æ‰æ–Ê‚É‘I‘ğ‚Å‚«‚Ü‚·B
-  - Real-time shipping quotes‚ÍAUPS‚âFedex‚ÆŒ_–ñ•K—v‚ª‚ ‚èAƒeƒXƒg‚µ‚Ä‚¢‚Ü‚¹‚ñB
-- x•¥‚¢‚Ìİ’è
-  - ŠÇ—‰æ–Ê¶‘¤‚Ìƒƒjƒ…[ > Store Setup > Payments ‚ğŠJ‚«‚Ü‚·B
-  - Stripe ‚ğON‚É‚µ‚ÄAistripe ‚ÌƒƒOƒCƒ“‚ª•K—v‚Å‚·jStripe Settings ‚É test mode ‚ğƒ`ƒFƒbƒN‚µ‚Ä save ‚µ‚Ü‚·B
-  - Stripe ‚ÌƒAƒJƒEƒ“ƒgì¬‚Í@https://dashboard.stripe.com/register@‚©‚ç‚Å‚«‚Ü‚·Biì¬‚µ‚½Œã‚à‹âsŒûÀ‚È‚Ç“ü—Í‚ª•K—v‚Å‚·‚ªA‰¼‚Ìî•ñ‚ğ“ü—Í‚Å‚à–â‘è‚È‚³‚»‚¤‚Å‚·j
+- APIã‚¢ã‚«ã‚¦ãƒ³ãƒˆä½œæˆ
+ã€€- bigcommerce storeã«ãƒ­ã‚°ã‚¤ãƒ³
+  - å·¦å´ã®ãƒ¡ãƒ‹ãƒ¥ãƒ¼ > Advanced Settings > API Accounts ã§ç”»é¢ã‚’é–‹ã„ã¦ã€ãƒœã‚¿ãƒ³ã€Œcreate API accountã€ >  ã€Œcreate v2/v3 API tokenã€ã‚’ã‚¯ãƒªãƒƒã‚¯ã™ã‚‹
+  - ã€ŒOAuth Scopesã€ã«ã‚ã‚‹é …ç›®ã¯ã™ã¹ã¦æœ€å¤§æ¨©é™ã‚’ä»˜ä¸ã—ã¦ï¼ˆmodifyãŒã‚ã‚Œã°modifyã€ãªã‘ã‚Œã° readonlyã€loginã€managementã€createï¼‰ã€ã€Œsaveã€ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¾ã™ã€‚
+ã€€- å‡ºã¦ããŸæƒ…å ±ã¯ config.json ã«ã‚ã‚‹é–¢é€£ã™ã‚‹keywordã®å€¤ã¨å…¥ã‚Œæ›¿ãˆã™ã‚‹ï¼ˆshop_cacheã¯API PATHã®å¾Œã‚ã‹ã‚‰2ç•ªç›®ã‚»ã‚°ãƒ¡ãƒ³ãƒˆã®å€¤ã§ã™ï¼‰
+- é…é€åœ°åŸŸã®è¨­å®š
+  - ç®¡ç†ç”»é¢å·¦å´ã®ãƒ¡ãƒ‹ãƒ¥ãƒ¼ > Store Setup > Shipping ã‚’é–‹ãã¾ã™ã€‚
+  - Add shipping zone > add a country zone ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ã€ä»»æ„ã®å›½ã‚’é¸æŠã—ã¦ submit ã—ã¾ã™ã€‚
+  - default shipping rules ä¸­ã«é¸æŠã•ã‚ŒãŸå›½ãŒå‡ºã¦ãã¦ã€configureã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¾ã™
+  - ship by ã‚’ONã«ã—ã¦ã€defaultã¯ by weight ãŒè¡¨ç¤ºã•ã‚Œã¦ã€Default shipping cost ã«ä»»æ„ã®æ•°å­—ã‚’å…¥ã‚Œã¦OKã§ã™ã€‚Rangesã‚¨ãƒªã‚¢ã¯é‡ã•åŒºé–“ã®é€æ–™ã‚’é©å½“ã«è¿½åŠ ã—ã¦ã€submitã§ä¿å­˜ã—ã¾ã™ã€‚
+  - é…é€åœ°åŸŸã¯è¤‡æ•°è¿½åŠ ã§ãã¾ã™ã€‚è¿½åŠ ã•ã‚ŒãŸæƒ…å ±ã¯æ³¨æ–‡ã®é…é€å…ˆç”»é¢ã«é¸æŠã§ãã¾ã™ã€‚
+  - Real-time shipping quotesã¯ã€UPSã‚„Fedexã¨å¥‘ç´„å¿…è¦ãŒã‚ã‚Šã€ãƒ†ã‚¹ãƒˆã—ã¦ã„ã¾ã›ã‚“ã€‚
+- æ”¯æ‰•ã„ã®è¨­å®š
+  - ç®¡ç†ç”»é¢å·¦å´ã®ãƒ¡ãƒ‹ãƒ¥ãƒ¼ > Store Setup > Payments ã‚’é–‹ãã¾ã™ã€‚
+  - Stripe ã‚’ONã«ã—ã¦ã€ï¼ˆstripe ã®ãƒ­ã‚°ã‚¤ãƒ³ãŒå¿…è¦ã§ã™ï¼‰Stripe Settings ã« test mode ã‚’ãƒã‚§ãƒƒã‚¯ã—ã¦ save ã—ã¾ã™ã€‚
+  - Stripe ã®ã‚¢ã‚«ã‚¦ãƒ³ãƒˆä½œæˆã¯ã€€https://dashboard.stripe.com/registerã€€ã‹ã‚‰ã§ãã¾ã™ã€‚ï¼ˆä½œæˆã—ãŸå¾Œã‚‚éŠ€è¡Œå£åº§ãªã©å…¥åŠ›ãŒå¿…è¦ã§ã™ãŒã€ä»®ã®æƒ…å ±ã‚’å…¥åŠ›ã§ã‚‚å•é¡Œãªã•ãã†ã§ã™ï¼‰
 
 ***  
 
-### ¤•i“o˜^‚ÆƒTƒCƒg‰æ–Ê‚Ì”½‰f
-- ƒfƒtƒHƒ‹ƒg¤•i
-  - ƒXƒgƒAì¬‚É”º‚Á‚ÄAƒfƒtƒHƒ‹ƒg‚Ìdemo¤•i‚Í13ŒA6ƒJƒeƒSƒŠ‚ª‚ ‚è‚Ü‚·B
-  - default ¤•i‚ÌƒIƒvƒVƒ‡ƒ“î•ñ‚Í–â‘è‚ª‚ ‚è‚Ü‚·i‘¶İ‚µ‚È‚¢color‚ªcolor‚Ì‘I‘ğˆ‚Éo‚Ä‚­‚éj‚Ì‚ÅA‘€ì‚ÌÛƒGƒ‰[‚Ì‰Â”\«‚ª‚ ‚è‚Ü‚·B
-- ¤•i“o˜^
-  - ŠÇ—‰æ–Ê¶‘¤‚Ìƒƒjƒ…[uproductv> uaddv‚ÅV‹K¤•i“o˜^‰æ–Ê‚ğŠJ‚­
-  - •K{‚Ì€–Ú(u\*v‚Â‚¢‚Ä‚¢‚é€–Ú)‚Ì‚İ‚Å‚à‚¢‚¢‚Å‚·‚Ì‚ÅA“ü—ÍI‚í‚Á‚½‚çusavev‚µ‚Ü‚·B(Categories ‚Ì€–Ú‚Í Shop All ‚Æ Garden ‚ğ‘I‘ğ‚·‚é‘O’ñ‚Åà–¾‚µ‚Ü‚·)
-  - ŠÇ—‰æ–Ê¶‘¤‚Ìƒƒjƒ…[uproductv> uproduct categoriesv‚ğŠJ‚¢‚ÄAgarden ƒJƒeƒSƒŠ‚Ì•ÒW‰æ–Ê‚ÉuCategory Imagev‚ğ’Ç‰Á‚µ‚Ä‚­‚¾‚³‚¢B
-- ECSite‚ÅŠm”F
-  - `http://localhost:8080/index.html` ‚ğƒAƒNƒZƒX‚·‚é
+### å•†å“ç™»éŒ²ã¨ã‚µã‚¤ãƒˆç”»é¢ã®åæ˜ 
+- ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆå•†å“
+  - ã‚¹ãƒˆã‚¢ä½œæˆã«ä¼´ã£ã¦ã€ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã®demoå•†å“ã¯13ä»¶ã€6ã‚«ãƒ†ã‚´ãƒªãŒã‚ã‚Šã¾ã™ã€‚
+  - default å•†å“ã®ã‚ªãƒ—ã‚·ãƒ§ãƒ³æƒ…å ±ã¯å•é¡ŒãŒã‚ã‚Šã¾ã™ï¼ˆå­˜åœ¨ã—ãªã„colorãŒcolorã®é¸æŠè‚¢ã«å‡ºã¦ãã‚‹ï¼‰ã®ã§ã€æ“ä½œã®éš›ã‚¨ãƒ©ãƒ¼ã®å¯èƒ½æ€§ãŒã‚ã‚Šã¾ã™ã€‚
+- å•†å“ç™»éŒ²
+  - ç®¡ç†ç”»é¢å·¦å´ã®ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã€Œproductã€> ã€Œaddã€ã§æ–°è¦å•†å“ç™»éŒ²ç”»é¢ã‚’é–‹ã
+  - å¿…é ˆã®é …ç›®(ã€Œ\*ã€ã¤ã„ã¦ã„ã‚‹é …ç›®)ã®ã¿ã§ã‚‚ã„ã„ã§ã™ã®ã§ã€å…¥åŠ›çµ‚ã‚ã£ãŸã‚‰ã€Œsaveã€ã—ã¾ã™ã€‚(Categories ã®é …ç›®ã¯ Shop All ã¨ Garden ã‚’é¸æŠã™ã‚‹å‰æã§èª¬æ˜ã—ã¾ã™)
+  - ç®¡ç†ç”»é¢å·¦å´ã®ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã€Œproductã€> ã€Œproduct categoriesã€ã‚’é–‹ã„ã¦ã€garden ã‚«ãƒ†ã‚´ãƒªã®ç·¨é›†ç”»é¢ã«ã€ŒCategory Imageã€ã‚’è¿½åŠ ã—ã¦ãã ã•ã„ã€‚
+- ECSiteã§ç¢ºèª
+  - `http://localhost:8080/index.html` ã‚’ã‚¢ã‚¯ã‚»ã‚¹ã™ã‚‹
   - ![new prodcut](readme/new-product.jpg)
-  - ƒJƒeƒSƒŠ Garden ‚ğƒNƒŠƒbƒN‚µ‚½‚ç‰º‹L‚Ì‰æ–Ê‚Ö‘JˆÚ‚µ‚Ü‚·B
+  - ã‚«ãƒ†ã‚´ãƒª Garden ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ãŸã‚‰ä¸‹è¨˜ã®ç”»é¢ã¸é·ç§»ã—ã¾ã™ã€‚
   - ![category with image](readme/category-with-img.jpg)
 
 
 ***
-### À‘•‹@”\
-- ƒgƒbƒvƒy[ƒW
+### å®Ÿè£…æ©Ÿèƒ½
+- ãƒˆãƒƒãƒ—ãƒšãƒ¼ã‚¸
 ![index](readme/index.jpg)
 
-- ƒJƒeƒSƒŠƒy[ƒW
+- ã‚«ãƒ†ã‚´ãƒªãƒšãƒ¼ã‚¸
 ![category](readme/category.jpg)
 
-- ¤•iƒy[ƒW
+- å•†å“ãƒšãƒ¼ã‚¸
 ![prodcut](readme/product.jpg)
 
-- ƒJ[ƒg•\¦ƒy[ƒW
+- ã‚«ãƒ¼ãƒˆè¡¨ç¤ºãƒšãƒ¼ã‚¸
 ![cart](readme/cart.jpg)
 
-- ZŠ“ü—Íƒy[ƒW
+- ä½æ‰€å…¥åŠ›ãƒšãƒ¼ã‚¸
 ![shipping](readme/shipping.jpg)
 
-- x•¥‚¢î•ñ“ü—Íƒy[ƒW
+- æ”¯æ‰•ã„æƒ…å ±å…¥åŠ›ãƒšãƒ¼ã‚¸
 ![payment](readme/payment.jpg)
 
-- ’•¶Š®—¹ƒy[ƒW
+- æ³¨æ–‡å®Œäº†ãƒšãƒ¼ã‚¸
 ![complete](readme/end.jpg)
 
-- ’•¶—š—ğ
+- æ³¨æ–‡å±¥æ­´
 ![order list](readme/orderlist.jpg)
 
-- ‰ïˆõƒƒOƒCƒ“
+- ä¼šå“¡ãƒ­ã‚°ã‚¤ãƒ³
 ![login](readme/login.jpg)
 
 
 ***
 
-### –â‘è
-- ¤•i‚ğcart‚É“ü‚ê‚½ŒãAcart‚©‚ç¤•iî•ñ‚ğæ“¾‚·‚é‚É¤•i’P‰¿‚Í¬”“_ˆÈŒã‚ª‚ ‚éê‡A”’l‚ªØ‚èã‚°‚é‚æ‚¤‚É‚È‚è‚Ü‚·Bi¤•i’P‰¿‚Í‰~‚Ìê‡‚Ì‚İA•Äƒhƒ‹‚Ìê‡–â‘è‚ª‚ ‚è‚Ü‚¹‚ñj
-- ¤•i‚Ìretail_price, price‚Æsale_price‚Ì’†‚ÉAgraphql‚ğ—˜—p‚·‚éê‡price‚Ì”’l‚Í³‚µ‚­‚È‚¢‚Å‚·Bserver-to-server API‚ğ—˜—p‚·‚éê‡A³‚µ‚­æ‚ê‚Ü‚·‚ªæ“¾‚·‚éî•ñ‚ª‘«‚è‚È‚­‚Ä”‰ñbigcommerceƒT[ƒo[‚Érequest‚·‚é•K—v‚ª‚ ‚è‚Ü‚·‚Ì‚ÅAŒ»İ‚Ígraphql‚Ì•û–@‚ÅÀ‘•‚µ‚Ä‚¢‚Ü‚·B
-- ’•¶Šm’èƒ{ƒ^ƒ“‚ğƒNƒŠƒbƒN‚µ‚ÄAu"code"= 30102, "title"="The payment was declined."vƒGƒ‰[‚ªo‚éê‡A’•¶¤•i‚Ì”‚ğ•ÏX‚µ‚ÄÄ“x‚µ‚Ä‚­‚¾‚³‚¢BiŒ´ˆö‚ÍŠm”F’†‚Å‚·j
+### å•é¡Œ
+- å•†å“ã‚’cartã«å…¥ã‚ŒãŸå¾Œã€cartã‹ã‚‰å•†å“æƒ…å ±ã‚’å–å¾—ã™ã‚‹æ™‚ã«å•†å“å˜ä¾¡ã¯å°æ•°ç‚¹ä»¥å¾ŒãŒã‚ã‚‹å ´åˆã€æ•°å€¤ãŒåˆ‡ã‚Šä¸Šã’ã‚‹ã‚ˆã†ã«ãªã‚Šã¾ã™ã€‚ï¼ˆå•†å“å˜ä¾¡ã¯å††ã®å ´åˆã®ã¿ã€ç±³ãƒ‰ãƒ«ã®å ´åˆå•é¡ŒãŒã‚ã‚Šã¾ã›ã‚“ï¼‰
+```
+I was able to test out a few different things and find that when Japanese Yen is set as the default, for some reason, the currency in the storefront API request is showing that the decimal place configuration is set to 0 decimal places, thus rounding these product prices.
+
+I've gone ahead and documented this in an engineering ticket that I've submitted to my Multi Currency development team.
+```
+
+- å•†å“ã®retail_price, priceã¨sale_priceã®ä¸­ã«ã€graphqlã‚’åˆ©ç”¨ã™ã‚‹å ´åˆpriceã®æ•°å€¤ã¯æ­£ã—ããªã„ã§ã™ã€‚server-to-server APIã‚’åˆ©ç”¨ã™ã‚‹å ´åˆã€æ­£ã—ãå–ã‚Œã¾ã™ãŒå–å¾—ã™ã‚‹æƒ…å ±ãŒè¶³ã‚Šãªãã¦æ•°å›bigcommerceã‚µãƒ¼ãƒãƒ¼ã«requestã™ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™ã®ã§ã€ç¾åœ¨ã¯graphqlã®æ–¹æ³•ã§å®Ÿè£…ã—ã¦ã„ã¾ã™ã€‚
+
+- æ³¨æ–‡ç¢ºå®šãƒœã‚¿ãƒ³ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ã€ã€Œ"code"= 30102, "title"="The payment was declined."ã€ã‚¨ãƒ©ãƒ¼ãŒå‡ºã‚‹å ´åˆã€æ³¨æ–‡å•†å“ã®æ•°ã‚’å¤‰æ›´ã—ã¦å†åº¦è©¦ã—ã¦ãã ã•ã„ã€‚
+```
+Due to this issue needing to be resolved by a specific engineering team, Iâ€™m going to go ahead and close this support case. This will need to be resolved by the engineering teams that work on this aspect of the software, which is outside of the support department. However this support case has been linked to their ticketing system so you will be notified once that engineering ticket is closed.  
+```
